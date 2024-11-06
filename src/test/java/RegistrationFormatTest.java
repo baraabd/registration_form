@@ -28,4 +28,10 @@ public class RegistrationFormatTest {
         RegistrationForm form = new RegistrationForm("validUser", "test@", "password123");
         assertFalse(form.isValidEmail());
     }
+
+    @Test
+    public void testInvalidPasswordTooShort() {
+        RegistrationForm form = new RegistrationForm("validUser", "test@example.com", "pass");
+        assertFalse(form.isValidPassword());
+    }
 }
