@@ -34,4 +34,10 @@ public class RegistrationFormatTest {
         RegistrationForm form = new RegistrationForm("validUser", "test@example.com", "pass");
         assertFalse(form.isValidPassword());
     }
+
+    @Test
+    public void testEmptyUsername() {
+        RegistrationForm form = new RegistrationForm("", "test@example.com", "password123");
+        assertFalse(form.isValidUsername());
+    }
 }
