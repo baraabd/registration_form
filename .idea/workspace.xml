@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90953751-5f13-4ea5-8e9c-eea7c5c3dc47" name="Changes" comment="" />
+    <list default="true" id="90953751-5f13-4ea5-8e9c-eea7c5c3dc47" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/RegistrationForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/RegistrationForm.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +34,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.RegistrationFormatTest.testEmptyUsername.executor": "Run",
+    "JUnit.RegistrationFormatTest.testInvalidEmailNoDomain.executor": "Run",
+    "JUnit.RegistrationFormatTest.testInvalidPasswordTooShort.executor": "Run",
     "JUnit.RegistrationFormatTest.testInvalidUsernameTooShort.executor": "Run",
+    "JUnit.RegistrationFormatTest.testNullEmail.executor": "Run",
+    "JUnit.RegistrationFormatTest.testNullPassword.executor": "Run",
+    "JUnit.RegistrationFormatTest.testValidEmail.executor": "Run",
     "JUnit.RegistrationFormatTest.testValidUsername.executor": "Run",
     "JUnit.RegistrationFormtest.testValidUsername.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -43,32 +52,52 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.RegistrationFormatTest.testInvalidUsernameTooShort">
-    <configuration name="RegistrationFormatTest.testInvalidUsernameTooShort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RegistrationFormatTest.testValidEmail">
+    <configuration name="RegistrationFormatTest.testEmptyUsername" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Regisrtration_Form" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RegistrationFormatTest" />
-      <option name="METHOD_NAME" value="testInvalidUsernameTooShort" />
+      <option name="METHOD_NAME" value="testEmptyUsername" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegistrationFormatTest.testValidUsername" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RegistrationFormatTest.testInvalidEmailNoDomain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Regisrtration_Form" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RegistrationFormatTest" />
-      <option name="METHOD_NAME" value="testValidUsername" />
+      <option name="METHOD_NAME" value="testInvalidEmailNoDomain" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegistrationFormtest.testValidUsername" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RegistrationFormatTest.testInvalidPasswordTooShort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Regisrtration_Form" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RegistrationFormtest" />
-      <option name="METHOD_NAME" value="testValidUsername" />
+      <option name="MAIN_CLASS_NAME" value="RegistrationFormatTest" />
+      <option name="METHOD_NAME" value="testInvalidPasswordTooShort" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistrationFormatTest.testNullEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Regisrtration_Form" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RegistrationFormatTest" />
+      <option name="METHOD_NAME" value="testNullEmail" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistrationFormatTest.testValidEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Regisrtration_Form" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RegistrationFormatTest" />
+      <option name="METHOD_NAME" value="testValidEmail" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -76,9 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RegistrationFormatTest.testInvalidUsernameTooShort" />
-        <item itemvalue="JUnit.RegistrationFormatTest.testValidUsername" />
-        <item itemvalue="JUnit.RegistrationFormtest.testValidUsername" />
+        <item itemvalue="JUnit.RegistrationFormatTest.testValidEmail" />
+        <item itemvalue="JUnit.RegistrationFormatTest.testInvalidEmailNoDomain" />
+        <item itemvalue="JUnit.RegistrationFormatTest.testInvalidPasswordTooShort" />
+        <item itemvalue="JUnit.RegistrationFormatTest.testEmptyUsername" />
+        <item itemvalue="JUnit.RegistrationFormatTest.testNullEmail" />
       </list>
     </recent_temporary>
   </component>
