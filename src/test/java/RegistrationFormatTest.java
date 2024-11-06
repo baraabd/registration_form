@@ -46,4 +46,10 @@ public class RegistrationFormatTest {
         RegistrationForm form = new RegistrationForm("validUser", null, "password123");
         assertFalse(form.isValidEmail());
     }
+
+    @Test
+    public void testNullPassword() {
+        RegistrationForm form = new RegistrationForm("validUser", "test@example.com", null);
+        assertFalse(form.isValidPassword());
+    }
 }
