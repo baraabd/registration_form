@@ -52,7 +52,7 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.RegistrationFormatTest.testValidEmail">
+  <component name="RunManager" selected="JUnit.RegistrationFormatTest.testInvalidPasswordTooShort">
     <configuration name="RegistrationFormatTest.testEmptyUsername" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Regisrtration_Form" />
       <option name="PACKAGE_NAME" value="" />
@@ -83,11 +83,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegistrationFormatTest.testNullEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RegistrationFormatTest.testInvalidUsernameTooShort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Regisrtration_Form" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RegistrationFormatTest" />
-      <option name="METHOD_NAME" value="testNullEmail" />
+      <option name="METHOD_NAME" value="testInvalidUsernameTooShort" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -105,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RegistrationFormatTest.testInvalidPasswordTooShort" />
+        <item itemvalue="JUnit.RegistrationFormatTest.testInvalidUsernameTooShort" />
         <item itemvalue="JUnit.RegistrationFormatTest.testValidEmail" />
         <item itemvalue="JUnit.RegistrationFormatTest.testInvalidEmailNoDomain" />
-        <item itemvalue="JUnit.RegistrationFormatTest.testInvalidPasswordTooShort" />
         <item itemvalue="JUnit.RegistrationFormatTest.testEmptyUsername" />
-        <item itemvalue="JUnit.RegistrationFormatTest.testNullEmail" />
       </list>
     </recent_temporary>
   </component>
@@ -131,6 +131,15 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/RegistrationFormatTest.java</url>
+          <line>14</line>
+          <properties class="RegistrationFormatTest" method="testInvalidUsernameTooShort">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

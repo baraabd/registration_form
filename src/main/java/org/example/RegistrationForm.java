@@ -21,7 +21,7 @@ public class RegistrationForm {
     public void setPassword(String password) { this.password = password; }
 
     public boolean isValidUsername() {
-        return username != null && username.length() >= 10;
+        return username != null && username.length() >= 2;
     }
 
     public boolean isValidEmail() {
@@ -29,7 +29,7 @@ public class RegistrationForm {
     }
 
     public boolean isValidPassword() {
-        return password != null && password.length() >= 8;
+        return password != null && password.length() >= 3;
     }
 
 }
