@@ -22,4 +22,10 @@ public class RegistrationFormatTest {
         RegistrationForm form = new RegistrationForm("validUser", "test@example.com", "password123");
         assertTrue(form.isValidEmail());
     }
+
+    @Test
+    public void testInvalidEmailNoDomain() {
+        RegistrationForm form = new RegistrationForm("validUser", "test@", "password123");
+        assertFalse(form.isValidEmail());
+    }
 }
