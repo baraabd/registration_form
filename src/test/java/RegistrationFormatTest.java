@@ -52,4 +52,11 @@ public class RegistrationFormatTest {
         RegistrationForm form = new RegistrationForm("validUser", "test@example.com", null);
         assertFalse(form.isValidPassword());
     }
+
+    @Test
+    public void testIntentionalFailure() {
+        RegistrationForm form = new RegistrationForm("short", "invalid-email", "123");
+        assertTrue(form.isValidUsername(), "Intentional failure to test GitHub Actions");  // This should fail
+    }
+
 }

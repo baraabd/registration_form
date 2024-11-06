@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="90953751-5f13-4ea5-8e9c-eea7c5c3dc47" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/RegistrationForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/RegistrationForm.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,27 +51,7 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.RegistrationFormatTest.testInvalidPasswordTooShort">
-    <configuration name="RegistrationFormatTest.testEmptyUsername" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Regisrtration_Form" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RegistrationFormatTest" />
-      <option name="METHOD_NAME" value="testEmptyUsername" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RegistrationFormatTest.testInvalidEmailNoDomain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Regisrtration_Form" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RegistrationFormatTest" />
-      <option name="METHOD_NAME" value="testInvalidEmailNoDomain" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.RegistrationFormatTest.testNullEmail">
     <configuration name="RegistrationFormatTest.testInvalidPasswordTooShort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Regisrtration_Form" />
       <option name="PACKAGE_NAME" value="" />
@@ -93,6 +72,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RegistrationFormatTest.testNullEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Regisrtration_Form" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RegistrationFormatTest" />
+      <option name="METHOD_NAME" value="testNullEmail" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistrationFormatTest.testNullPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Regisrtration_Form" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RegistrationFormatTest" />
+      <option name="METHOD_NAME" value="testNullPassword" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RegistrationFormatTest.testValidEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Regisrtration_Form" />
       <option name="PACKAGE_NAME" value="" />
@@ -105,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RegistrationFormatTest.testNullEmail" />
+        <item itemvalue="JUnit.RegistrationFormatTest.testNullPassword" />
         <item itemvalue="JUnit.RegistrationFormatTest.testInvalidPasswordTooShort" />
         <item itemvalue="JUnit.RegistrationFormatTest.testInvalidUsernameTooShort" />
         <item itemvalue="JUnit.RegistrationFormatTest.testValidEmail" />
-        <item itemvalue="JUnit.RegistrationFormatTest.testInvalidEmailNoDomain" />
-        <item itemvalue="JUnit.RegistrationFormatTest.testEmptyUsername" />
       </list>
     </recent_temporary>
   </component>
@@ -131,15 +130,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/RegistrationFormatTest.java</url>
-          <line>14</line>
-          <properties class="RegistrationFormatTest" method="testInvalidUsernameTooShort">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
