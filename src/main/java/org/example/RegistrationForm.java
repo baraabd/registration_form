@@ -19,4 +19,19 @@ public class RegistrationForm {
 
     public String getPassword() { return password; }
     public void setPassword(String password) { this.password = password; }
+
+    public boolean isValidUsername() {
+        return username != null && username.length() >= 5;
+    }
+
+    public boolean isValidEmail() {
+        return email != null && email.matches("^[\\w-\\.]+@([\\w-]+\\.)+[\\w-]{2,4}$");
+    }
+
+    public boolean isValidPassword() {
+        return password != null && password.length() >= 8;
+    }
+
 }
+
+
