@@ -9,4 +9,10 @@ public class RegistrationFormatTest {
         RegistrationForm form = new RegistrationForm("validUser", "test@example.com", "password123");
         assertTrue(form.isValidUsername());
     }
+
+    @Test
+    public void testInvalidUsernameTooShort() {
+        RegistrationForm form = new RegistrationForm("usr", "test@example.com", "password123");
+        assertFalse(form.isValidUsername());
+    }
 }
