@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="90953751-5f13-4ea5-8e9c-eea7c5c3dc47" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/RegistrationForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/RegistrationForm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RegistrationFormatTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RegistrationFormatTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,36 +24,36 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2oTBAgwbHl53UsRL8wBMDUCTVEU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.RegistrationFormatTest.testEmptyUsername.executor": "Run",
-    "JUnit.RegistrationFormatTest.testIntentionalFailure.executor": "Run",
-    "JUnit.RegistrationFormatTest.testInvalidEmailNoDomain.executor": "Run",
-    "JUnit.RegistrationFormatTest.testInvalidPasswordTooShort.executor": "Run",
-    "JUnit.RegistrationFormatTest.testInvalidUsernameTooShort.executor": "Run",
-    "JUnit.RegistrationFormatTest.testNullEmail.executor": "Run",
-    "JUnit.RegistrationFormatTest.testNullPassword.executor": "Run",
-    "JUnit.RegistrationFormatTest.testValidEmail.executor": "Run",
-    "JUnit.RegistrationFormatTest.testValidUsername.executor": "Run",
-    "JUnit.RegistrationFormtest.testValidUsername.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "/Users/baraabdullatif/IdeaProjects/Regisrtration_Form/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.RegistrationFormatTest.testEmptyUsername.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RegistrationFormatTest.testIntentionalFailure.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RegistrationFormatTest.testInvalidEmailNoDomain.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RegistrationFormatTest.testInvalidPasswordTooShort.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RegistrationFormatTest.testInvalidUsernameTooShort.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RegistrationFormatTest.testNullEmail.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RegistrationFormatTest.testNullPassword.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RegistrationFormatTest.testValidEmail.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RegistrationFormatTest.testValidUsername.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RegistrationFormtest.testValidUsername.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/baraabdullatif/IdeaProjects/Regisrtration_Form/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="JUnit.RegistrationFormatTest.testInvalidUsernameTooShort">
     <configuration name="RegistrationFormatTest.testIntentionalFailure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Regisrtration_Form" />

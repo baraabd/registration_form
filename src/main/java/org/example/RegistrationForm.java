@@ -21,11 +21,11 @@ public class RegistrationForm {
     public void setPassword(String password) { this.password = password; }
 
     public boolean isValidUsername() {
-        return username != null && username.length() >= 5;
+        return username != null && username.length() >= 2;
     }
 
     public boolean isValidEmail() {
-        return email != null && email.matches("^[\\w-\\.]+@([\\w-]+\\.)+[\\w-]{2,4}$");
+        return email != null && email.matches("^[\\w-\\.]+([\\w-]+\\.)+[\\w-]{2,4}$");
     }
 
     public boolean isValidPassword() {

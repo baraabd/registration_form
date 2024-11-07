@@ -5,6 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class RegistrationFormatTest {
+
     @Test
     public void testValidUsername() {
         RegistrationForm form = new RegistrationForm("validUser", "test@example.com", "password123");
@@ -52,12 +53,5 @@ public class RegistrationFormatTest {
         RegistrationForm form = new RegistrationForm("validUser", "test@example.com", null);
         assertFalse(form.isValidPassword());
     }
-
-    @Test
-    public void testIntentionalFailure() {
-        RegistrationForm form = new RegistrationForm("short", "invalid-email", "123");
-        assertTrue(form.isValidUsername(), "Intentional failure to test GitHub Actions");  // This should fail
-    }
-
 
 }
