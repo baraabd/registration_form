@@ -19,7 +19,7 @@ public class RegistrationFormatTest {
 
     @Test
     public void testValidEmail() {
-        RegistrationForm form = new RegistrationForm("validUser", "test@example.com", "password123");
+        RegistrationForm form = new RegistrationForm("validUser", "testexample.com", "password123");
         assertTrue(form.isValidEmail());
     }
 
@@ -58,7 +58,6 @@ public class RegistrationFormatTest {
         RegistrationForm form = new RegistrationForm("short", "invalid-email", "123");
         assertTrue(form.isValidUsername(), "Intentional failure to test GitHub Actions");  // This should fail
     }
-
 
 
 }
