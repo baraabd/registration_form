@@ -19,7 +19,7 @@ public class RegistrationFormatTest {
 
     @Test
     public void testValidEmail() {
-        RegistrationForm form = new RegistrationForm("validUser", "testexample.com", "password123");
+        RegistrationForm form = new RegistrationForm("validUser", "test@example.com", "password123");
         assertTrue(form.isValidEmail());
     }
 
