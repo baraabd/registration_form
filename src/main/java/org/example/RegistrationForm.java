@@ -25,7 +25,7 @@ public class RegistrationForm {
     }
 
     public boolean isValidEmail() {
-        return email != null && email.matches("^[\\w-\\.]+([\\w-]+\\.)+[\\w-]{2,4}$");
+        return email != null && email.matches("^[\\w-\\.]+@([\\w-]+\\.)+[\\w-]{2,4}$");
     }
 
     public boolean isValidPassword() {
